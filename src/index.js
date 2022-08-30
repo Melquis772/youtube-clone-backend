@@ -24,7 +24,7 @@ app.get('/:url', async (req, res) => {
     const options = {
         url: BASE_URL,
         params: {
-            maxResults: '150',
+            maxResults: '125',
             part, q, order, channelId, id, type
         },
         headers: {
